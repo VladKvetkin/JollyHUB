@@ -1,0 +1,25 @@
+// Place all the styles related to the Pins controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.panel-hub {
+	background-color: #222222 !important;
+}
+
+.hub-h1 {
+	color: #f39902;
+}
+
+.description {
+	color: #999999 !important;
+}
+
+a.btn-default {
+	background-color: #c0c0c0 !important;
+}
+
+a.btn-default:hover {
+	background-color: #f39902 !important;
+	transition: all 2ms;
+}
