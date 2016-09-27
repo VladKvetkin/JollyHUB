@@ -1,10 +1,10 @@
 #edit_page.col-md-8.col-md-offset-2
 	.row
-		.panel.panel-default
-			.panel-heading
-				%h1 Edit Your Pin
-			.panel-body
+		.panel.panel-default.panel-hub
+			.panel-heading.panel-hub
+				%h1.hub-h1 Редактировать Pin
+			.panel-body.panel-hub
 				.current_image
-					%strong.center Current Image
+					%strong.center Текущее изображение
 					= image_tag @pin.image.url(:medium)
 				= render 'form'

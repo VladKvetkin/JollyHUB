@@ -5,21 +5,34 @@
 
 .panel-hub {
 	background-color: #222222 !important;
+	border-color: #ec710b !important;
+}
+
+label {
+	color: #f39902;
 }
 
 .hub-h1 {
 	color: #f39902;
+	margin-left: 30px;
 }
 
 .description {
 	color: #999999 !important;
 }
 
-a.btn-default {
+.btn-default {
 	background-color: #c0c0c0 !important;
 }
 
-a.btn-default:hover {
+.btn-default:hover {
 	background-color: #f39902 !important;
 	transition: all 2ms;
 }
+
+.alert-hub {
+	background-color: #f39902 !important;
+	color: #000000 !important;  
+	border-color: #ec710b !important;
+}
+
